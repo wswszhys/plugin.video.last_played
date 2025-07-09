@@ -27,7 +27,7 @@ plugin.video.last_played
 
 安装
 ------------
-- 从https://www.starmovies.org/5star.zip下载五星仓库<br />
+- 从　https://www.starmovies.org/5star.zip　下载五星仓库<br />
 - 打开Kodi<br />
 - 进入“系统 -> 设置 -> 插件”<br />
 - 选择“从zip文件安装”-> 选择下载的zip文件<br />
