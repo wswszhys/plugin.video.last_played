@@ -1,56 +1,56 @@
 plugin.video.last_played
 ------------------------
-Lists what was played most recently, allowing to resume watching directly from the addon.
+列出最近播放的内容，允许直接从插件继续观看。
 
-Before if you wanted to finish viewing something you stopped, you had to remember it and then search, or go through a number of menus to get back to where you were.
-Now just open this addon and it will display a list with the last things you watched. Click and it will resume playing directly from the addon.
+以前，如果你想继续观看之前中途停止的内容，必须记住它然后搜索，或者通过多个菜单才能回到之前的位置。
+现在只需打开这个插件，它会显示最近观看内容的列表。点击即可直接从插件继续播放。
 
-Usage
+使用方法
 -----
-When you start playing anything in KODI it will be added to the list of last played.
+在　KODI　中开始播放任何内容时，它都会被添加到最近播放列表中。
 
-To remove from the played list something you watched:
-Open the list of last played, select the line to remove, and choose "Remove from list" form the context menu. 
+要从播放列表中移除已观看的内容：
+打开最近播放列表，选择要移除的条目，然后从上下文菜单中选择“从列表中移除”。
 
-Settings:
+设置：
 ---------
-Number of lines: How many lines to display on screen<br />
-Single List: Shows everything on a single list, no matter what or where is was played<br />
-Group by Type: Display on separate groups Movies, Shows, Videos, etc<br />
-Group by Source: Display separate groups for each addon used to play<br />
-Number of lines on top: If grouping is active, display before the groups some of the last played movies or shows<br />
-Show Date: Display for each item the date when it was played<br />
-Show Time: Display time of play<br />
-Play History at Star Movies: The play history can be viewed privately on the www.starmovies.org site<br />
-Custom Path: Location of non-library play history. Point all devices to the same location to synch non-library history<br />
-Enable Debug: Display an extra menu option allowing to clear the full list, and logs information to help solve eventual errors<br />
+显示条目数量：屏幕上显示的条目数量<br />
+单一列表：将所有内容显示在一个列表中，无论播放的内容或位置如何<br />
+按类型分组：将电影、剧集、视频等分为不同的组显示<br />
+按来源分组：为每个用于播放的插件显示单独的组<br />
+顶部显示条目数量：如果分组功能启用，在分组前显示一些最近播放的电影或剧集<br />
+显示日期：为每个条目显示播放日期<br />
+显示时间：显示播放时间<br />
+星空电影播放历史：可以在　www.starmovies.org　网站上私下查看播放历史<br />
+自定义路径：非媒体库播放历史的位置。将所有设备指向同一位置以同步非媒体库历史<br />
+启用调试：显示额外的菜单选项，允许清除整个列表，并记录信息以帮助解决可能出现的错误<br />
 
-Installation
+安装
 ------------
-- Download the 5 star repo from https://www.starmovies.org/5star.zip<br />
-- Open Kodi<br />
-- Go to `System -> Settings -> Add-ons<br />
-- Select Install from zip file` -> Select the downloaded zip file<br />
-- Then select -> Install from repository -> Last played addon and Install<br />
-- Enjoy :)<br />
- 
-Release history
+- 从　https://www.starmovies.org/5star.zip　下载插件<br />
+- 打开Kodi<br />
+- 进入“系统 -> 设置 -> 插件”<br />
+- 选择“从　zip　文件安装”-> 选择下载的　zip　文件<br />
+- 然后选择 -> 从仓库安装 -> 最近播放插件并安装<br />
+- 尽情使用 :)<br />
+
+版本历史
 ---------------
-6.2.0 - Set user agent
-6.0.3 - Fix error clearing history<br />
-6.0.1 - Fixes<br />
-6.0.0 - Kodi 19<br />
-1.3.1 - Fixes<br />
-1.3.0 - Setting to allow music<br />
-1.2.2 - Update for Kodi 18<br />
-1.1.8 - Wildcard Blacklist<br />
-1.1.8 - Blacklist and new site<br />
-1.0.9 - Skin handling<br />
-1.0.8 - New replay method and some minor improvements<br />
-1.0.7 - New list format and add 5star-movies<br />
-1.0.6 - Configuration options<br />
-1.0.5 - Add debug options<br />
-1.0.4 - New options: Split by addon and display date and time<br /> 
-1.0.3 - Improve metadata info. Aloow item removal. Make it kodi repo compliant<br />
-1.0.2 - Set media type on list items<br />
-1.0.1 - Initial Release<br />
+6.2.0 - 设置用户代理
+6.0.3 - 修复清除历史记录时的错误<br />
+6.0.1 - 修复问题<br />
+6.0.0 - 支持　Kodi 19<br />
+1.3.1 - 修复问题<br />
+1.3.0 - 新增允许音乐的设置<br />
+1.2.2 - 针对Kodi 18的更新<br />
+1.1.8 - 通配符黑名单<br />
+1.1.8 - 黑名单和新网站<br />
+1.0.9 - 皮肤处理<br />
+1.0.8 - 新的重播方法和一些小改进<br />
+1.0.7 - 新的列表格式并添加五星电影<br />
+1.0.6 - 配置选项<br />
+1.0.5 - 添加调试选项<br />
+1.0.4 - 新选项：按插件拆分并显示日期和时间<br />
+1.0.3 - 改进元数据信息。允许移除条目。使其符合kodi仓库标准<br />
+1.0.2 - 在列表项上设置媒体类型<br />
+1.0.1 - 初始版本<br />

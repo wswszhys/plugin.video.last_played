@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+msgctxt "#30001"
+msgid "Number of lines"
+msgstr "行数"
+
+msgctxt "#30002"
+msgid "Library Movies"
+msgstr "媒体库电影"
+
+msgctxt "#30003"
+msgid "Library Episodes"
+msgstr "媒体库剧集"
+
+msgctxt "#30004"
+msgid "Library Music Videos"
+msgstr "媒体库音乐视频"
+
+msgctxt "#30005"
+msgid "Group by"
+msgstr "按以下方式分组"
+
+msgctxt "#30006"
+msgid "Store list in a custom path"
+msgstr "将列表存储在自定义路径"
+
+msgctxt "#30007"
+msgid "List location"
+msgstr "列表位置"
+
+msgctxt "#30008"
+msgid "Remove from list"
+msgstr "从列表中移除"
+
+msgctxt "#30009"
+msgid "Single list"
+msgstr "单个列表"
+
+msgctxt "#30010"
+msgid "Show Date"
+msgstr "显示日期"
+
+msgctxt "#30011"
+msgid "Show Time"
+msgstr "显示时间"
+
+msgctxt "#30012"
+msgid "Keep history at StarMovies"
+msgstr "在 StarMovies 保留历史记录"
+
+msgctxt "#30013"
+msgid "Enable debug"
+msgstr "启用调试"
+
+msgctxt "#30014"
+msgid "Show Addon History List"
+msgstr "显示插件历史列表"
+
+msgctxt "#30015"
+msgid "Delete Addon History List"
+msgstr "删除插件历史列表"
+
+msgctxt "#30016"
+msgid "*** There is no Addon History ***"
+msgstr "*** 没有插件历史记录 ***"
+
+msgctxt "#30017"
+msgid "Source"
+msgstr "来源"
+
+msgctxt "#30018"
+msgid "Type"
+msgstr "类型"
+
+msgctxt "#30019"
+msgid "Music"
+msgstr "音乐"
+
+msgctxt "#30020"
+msgid "StarMovies user"
+msgstr "StarMovies 用户"
+
+msgctxt "#30021"
+msgid "StarMovies password"
+msgstr "StarMovies 密码"
+
+msgctxt "#30022"
+msgid "Library Videos"
+msgstr "媒体库视频"
+
+msgctxt "#30023"
+msgid "Movies"
+msgstr "电影"
+
+msgctxt "#30024"
+msgid "TV"
+msgstr "电视"
+
+msgctxt "#30025"
+msgid "Videos"
+msgstr "视频"
+
+msgctxt "#30026"
+msgid "Number of lines on top from all sources and types"
+msgstr "所有来源和类型的顶部行数"
+
+msgctxt "#30027"
+msgid "General"
+msgstr "通用"
+
+msgctxt "#30028"
+msgid "StarMovies"
+msgstr "StarMovies（星光影院）"
+
+msgctxt "#30029"
+msgid "Advanced"
+msgstr "高级"
+
+msgctxt "#30030"
+msgid "New install. Start watching and it will display here."
+msgstr "新安装。开始观看后，内容将显示在此处。"
+
+msgctxt "#30031"
+msgid "Play with "
+msgstr "使用以下方式播放 "
+
+msgctxt "#30032"
+msgid "Blacklist Addon"
+msgstr "插件黑名单"
+
+msgctxt "#30033"
+msgid "Blacklist Folder"
+msgstr "文件夹黑名单"
+
+msgctxt "#30034"
+msgid "Blacklist Video"
+msgstr "视频黑名单"
