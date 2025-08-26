@@ -162,8 +162,8 @@ elif menu[0] == 'showlist':
         for line in lines:
             #addDirectoryItem(addon_handle, url({}), xbmcgui.ListItem(str(line)), False)
             filename = line['file'].split('/')
-            if len(filename) > 2:
-                filename = '/'.join(filename[2:])
+            if len(filename) > 3:
+                filename = '/'.join(filename[3:])
             addDirectoryItem(addon_handle, url({}), xbmcgui.ListItem(filename), False)
         endOfDirectory(addon_handle)
 elif menu[0] == 'deletelist':
