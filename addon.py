@@ -160,16 +160,10 @@ elif menu[0] == 'showlist':
         lines = json.load(f)
         f.close()
         for line in lines:
-            #addDirectoryItem(addon_handle, url({}), xbmcgui.ListItem(str(line)), False)
-            #filename = line['file'].split('/')
-            #if len(filename) > 3:
-            # filename = 'library://video'+ line['file']
-            #filename = line['file'].split('/')[3:-1]
-            # filename = '/'.join(filename)
-            filename = line['file'].split('\\')[:-1] 
-            filename = '\\'.join(filename)
+            filename = line['file']
             #xbmc.executebuiltin("ActivateWindow(Videos,"+filename+")")
-            li = xbmcgui.ListItem(filename)
+            li = xbmcgui.ListItem(filename[-1])
+            filename = filename.split('/')[:-1].join(filename)
             command = []
             command.append((lang(30035), "ActivateWindow(Videos,"+filename+")"))
             li.addContextMenuItems(command)
