@@ -165,9 +165,9 @@ elif menu[0] == 'showlist':
             #if len(filename) > 3:
             #    filename = '/'.join(filename[3:])
             # filename = 'library://video'+ line['file']
-            filename = line['file'].split('/')[2:-1]
+            filename = line['file'].split('/')[3:-1]
             filename = '/'.join(filename)
-            filename = 'sources://video/' + filename 
+            filename = 'sources://video/MEDIA/' + filename 
             #xbmc.executebuiltin("ActivateWindow(Videos,"+filename+")")
             li = xbmcgui.ListItem(xbmcvfs.translatePath(filename))
             command = []
