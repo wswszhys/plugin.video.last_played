@@ -161,10 +161,11 @@ elif menu[0] == 'showlist':
         f.close()
         for line in lines:
             #addDirectoryItem(addon_handle, url({}), xbmcgui.ListItem(str(line)), False)
-            filename = line['file'].split('/')
-            if len(filename) > 3:
-                filename = '/'.join(filename[3:])
-            addDirectoryItem(addon_handle, url({}), xbmcgui.ListItem(filename), False)
+            #filename = line['file'].split('/')
+            #if len(filename) > 3:
+            #    filename = '/'.join(filename[3:])
+            filename = line['file']
+            addDirectoryItem(addon_handle, url({}), xbmcgui.ListItem('sources://'+filename), False)
         endOfDirectory(addon_handle)
 elif menu[0] == 'deletelist':
     if xbmcvfs.exists(txtfile):
