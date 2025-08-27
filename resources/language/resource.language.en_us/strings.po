@@ -136,3 +136,7 @@ msgstr ""
 msgctxt "#30034"
 msgid "Blacklist Video"
 msgstr ""
+
+msgctxt "#30035"
+msgid "Enter playlist"
+msgstr ""
