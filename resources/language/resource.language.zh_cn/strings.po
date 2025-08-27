@@ -146,3 +146,7 @@ msgstr "文件夹黑名单"
 msgctxt "#30034"
 msgid "Blacklist Video"
 msgstr "视频黑名单"
+
+msgctxt "#30035"
+msgid "Enter playlist"
+msgstr "进入播放列表"
