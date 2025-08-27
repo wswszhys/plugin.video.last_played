@@ -167,7 +167,7 @@ elif menu[0] == 'showlist':
             # filename = 'library://video'+ line['file']
             filename = 'library://video/files/' #line['file']
             #xbmc.executebuiltin("ActivateWindow(Videos,"+filename+")")
-            li = xbmcgui.ListItem(filename)
+            li = xbmcgui.ListItem(xbmcvfs.translatePath(filename))
             command = []
             command.append((lang(30035), "ActivateWindow(Videos,"+filename+")"))
             li.addContextMenuItems(command)
