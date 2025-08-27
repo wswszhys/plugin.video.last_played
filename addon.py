@@ -164,8 +164,13 @@ elif menu[0] == 'showlist':
             #filename = line['file'].split('/')
             #if len(filename) > 3:
             #    filename = '/'.join(filename[3:])
-            filename = line['file']
-            addDirectoryItem(addon_handle, url({}), xbmcgui.ListItem('sources://'+filename), False)
+            filename = 'sources://'+ line['file']
+            #xbmc.executebuiltin("ActivateWindow(Videos,"+filename+")")
+            li = xbmcgui.ListItem(filename)
+            command = []
+            command.append(('进入播放列表', "ActivateWindow(Videos,"+filename+")"))
+            li.addContextMenuItems(command)
+            addDirectoryItem(addon_handle, url({}), li, False)
         endOfDirectory(addon_handle)
 elif menu[0] == 'deletelist':
     if xbmcvfs.exists(txtfile):
