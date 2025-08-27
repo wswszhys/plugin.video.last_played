@@ -163,11 +163,11 @@ elif menu[0] == 'showlist':
             #addDirectoryItem(addon_handle, url({}), xbmcgui.ListItem(str(line)), False)
             #filename = line['file'].split('/')
             #if len(filename) > 3:
-            #    filename = '/'.join(filename[3:])
             # filename = 'library://video'+ line['file']
             #filename = line['file'].split('/')[3:-1]
             # filename = '/'.join(filename)
-            filename = line['file'].split('/')[:-1] 
+            filename = line['file'].split('\\')[:-1] 
+            filename = '\\'.join(filename[3:])
             #xbmc.executebuiltin("ActivateWindow(Videos,"+filename+")")
             li = xbmcgui.ListItem(filename)
             command = []
