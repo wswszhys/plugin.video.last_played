@@ -168,7 +168,7 @@ elif menu[0] == 'showlist':
             #xbmc.executebuiltin("ActivateWindow(Videos,"+filename+")")
             li = xbmcgui.ListItem(line['file'])
             command = []
-            command.append(('进入播放列表', "ActivateWindow(Videos,"+filename+")"))
+            command.append((lang(30035), "ActivateWindow(Videos,"+filename+")"))
             li.addContextMenuItems(command)
             addDirectoryItem(addon_handle, url({}), li, False)
         endOfDirectory(addon_handle)
