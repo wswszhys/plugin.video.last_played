@@ -160,10 +160,10 @@ elif menu[0] == 'showlist':
         lines = json.load(f)
         f.close()
         for line in lines:
-            filename = line['file']
+            filename = line['file'].split('/')
             #xbmc.executebuiltin("ActivateWindow(Videos,"+filename+")")
             li = xbmcgui.ListItem(filename[-1])
-            filename = filename.split('/')[:-1].join(filename)
+            filename = '/' + '/'.join(filename[:-1])
             command = []
             command.append((lang(30035), "ActivateWindow(Videos,"+filename+")"))
             li.addContextMenuItems(command)
