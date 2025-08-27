@@ -71,6 +71,9 @@ def list_items(selGroup, nbrLines):
                 li.setArt({ "fanart" : line["fanart"].strip() })
                 li.setProperty('IsPlayable', 'true')
                 command = []
+                filename = line['file'].split('/')
+                filename = '/' + '/'.join(filename[:-1])
+                command.append((lang(30035), "ActivateWindow(Videos,"+filename+")"))
                 command.append((lang(30008), "RunPlugin(plugin://plugin.video.last_played?menu=remove&id="+str(idx)+")"))
                 if line["file"][:6]=="plugin":
                     command.append((lang(30031)+line["source"], "PlayMedia(" + line["file"] + ")"))
