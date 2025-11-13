@@ -270,12 +270,8 @@ class KodiPlayer(xbmc.Player):
         videoEnd()
 
     def onPlayBackStarted(self):
-        if enable_debug	== "true": xbmc.log("<<<plugin.video.last_played (onPlayBackStarted1)", 3)
-        if True: 
-            #xbmc.getCondVisibility('[Player.HasMedia]'):
-            if enable_debug	== "true": xbmc.log("<<<plugin.video.last_played (onPlayBackStarted2)", 3)
+        if xbmc.getCondVisibility('Player.HasMedia'):
             lp.video = self.getPlayingFile()
-            if enable_debug	== "true": xbmc.log("<<<plugin.video.last_played (onPlayBackStarted3)", 3)
             request = {"jsonrpc": "2.0", "method": "Player.GetItem", "params": { "properties": ["title", "year", "thumbnail", "fanart", "showtitle", "season", "episode", "file"], "playerid": 1 }, "id": "VideoGetItem"}
             result, data, error = JSquery(request)
             if enable_debug	== "true": xbmc.log("<<<plugin.video.last_played (jsonrpc video): "+ str(result) + ", error:" + str(error), 3)
