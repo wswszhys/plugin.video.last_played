@@ -271,7 +271,8 @@ class KodiPlayer(xbmc.Player):
 
     def onPlayBackStarted(self):
         if enable_debug	== "true": xbmc.log("<<<plugin.video.last_played (onPlayBackStarted1)", 3)
-        if xbmc.getCondVisibility('[Player.HasMedia]'):
+        if True: 
+            #xbmc.getCondVisibility('[Player.HasMedia]'):
             if enable_debug	== "true": xbmc.log("<<<plugin.video.last_played (onPlayBackStarted2)", 3)
             lp.video = self.getPlayingFile()
             if enable_debug	== "true": xbmc.log("<<<plugin.video.last_played (onPlayBackStarted3)", 3)
